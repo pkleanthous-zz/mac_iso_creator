@@ -1,6 +1,6 @@
 r=n
-path=$1
-disk=$2 
+iso_path=$1
+iso_disk=$2 
 while [ "$r" != "y" ]; do
 	echo "Please veriry the followings"
 	echo "ISO path: ""$iso_path"""
